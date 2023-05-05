@@ -1,0 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #5c09a0 !important;
+  font-weight: 500 !important;
+}
+
+a.btn-primary,
+button.btn-primary {
+  background-color: #bc8de2 !important;
+  border-color: transparent !important;
+  border-radius: 3rem !important;
+}
+
+button.btn-primary {
+  font-weight: 500 !important;
+  color: #5c09a0 !important;
+  background-color: #bc8de2 !important;
+  border-color: transparent !important;
+  border-radius: 0.5rem !important;
+}

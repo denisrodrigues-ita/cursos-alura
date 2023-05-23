@@ -1,7 +1,7 @@
 import style from './botao.module.scss';
 
 type BotaoProps = {
-  children: string;
+  children?: React.ReactNode;
   type?: "button" | "reset" | "submit" | undefined;
   onClick?: () => void;
 };

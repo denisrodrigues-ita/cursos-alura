@@ -2,7 +2,7 @@ import React from "react";
 import Buscador from "./Buscador";
 import Filtros from "./Filtros";
 import Ordenador from "./Ordenador";
-import Itens from "./Itens";
+import Itens from './Itens';
 
 const Cardapio = () => {
   const [busca, setBusca] = React.useState("");

@@ -1,6 +1,6 @@
 import React from 'react';
-import Item from './Item';
-import cardapio from './itens.json';
+import Item from '/@/components/Item';
+import cardapio from '/@/data/cardapio.json';
 
 interface Props {
   busca: string;

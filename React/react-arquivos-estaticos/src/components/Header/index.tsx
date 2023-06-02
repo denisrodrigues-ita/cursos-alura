@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import LogoSVG from "/@/assets/LogoSvg";
 
@@ -27,4 +28,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default React.memo(Header);

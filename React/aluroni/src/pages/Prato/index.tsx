@@ -1,5 +1,6 @@
 import { useLocation, useParams } from "react-router-dom";
 import cardapio from '/@/data/cardapio.json';
+import NotFound from "../NotFound";
 
 const Pratos = () => {
 
@@ -10,6 +11,7 @@ const Pratos = () => {
     prato = cardapio.find((item) => item.id === Number(pratoId));
   }
 
+  if (!prato) return <NotFound />
   return (
     <section className="flex flex-col justify-center items-center bg-neutral-400 rounded">
       <h3 className="text-3xl text-center">{prato.title}</h3>

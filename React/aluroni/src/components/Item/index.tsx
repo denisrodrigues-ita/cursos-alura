@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import { IItens } from '/@/types/IItens';
 
 const Item = (props: IItens) => {
@@ -15,7 +15,7 @@ const Item = (props: IItens) => {
       <div>
         <img className="rounded-lg" src={photo} alt={title} />
       </div>
-      <div className="ml-2 md:w-2/5">
+      <div className="mx-2 md:w-2/5">
         <h3 className="text-3xl">{title}</h3>
         <p className="">{description}</p>
         <div className="mt-4 flex justify-between mr-2 mb-2">

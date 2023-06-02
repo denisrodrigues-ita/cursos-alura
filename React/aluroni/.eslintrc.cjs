@@ -11,4 +11,7 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
